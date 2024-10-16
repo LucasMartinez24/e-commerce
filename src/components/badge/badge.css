@@ -1,0 +1,83 @@
+/* Default (Light) */
+.badge-default {
+  background-color: #e4b8fc; /* bg-blue-50 */
+  color: #ae6ad3; /* text-blue-900 */
+  border: 1px solid #b174d15d; /* ring-blue-500/30 */
+  border-radius: 100px;
+  margin-left: 20px;
+  padding: 2px 9px;
+  text-align: center; 
+  font-weight: 500;
+}
+
+
+/* Default (Dark) */
+.badge-default-dark {
+  background-color: rgba(96, 165, 250, 0.1); /* dark:bg-blue-400/10 */
+  color: rgba(96, 165, 250); /* dark:text-blue-400 */
+  border: 1px solid rgba(96, 165, 250, 0.3); /* dark:ring-blue-400/30 */
+}
+
+/* Neutral (Light) */
+.badge-neutral {
+  background-color: #f9fafb; /* bg-gray-50 */
+  color: #111827; /* text-gray-900 */
+  border: 1px solid rgba(107, 114, 128, 0.3); /* ring-gray-500/30 */
+}
+
+/* Neutral (Dark) */
+.badge-neutral-dark {
+  background-color: rgba(156, 163, 175, 0.1); /* dark:bg-gray-400/10 */
+  color: rgba(156, 163, 175); /* dark:text-gray-400 */
+  border: 1px solid rgba(156, 163, 175, 0.2); /* dark:ring-gray-400/20 */
+}
+
+/* Success (Light) */
+.badge-success {
+  background-color: #d1fae5; /* bg-emerald-50 */
+  color: #064e3b; /* text-emerald-900 */
+  border: 1px solid rgba(16, 185, 129, 0.3); /* ring-emerald-600/30 */
+  border-radius: 100px;
+  padding: 2px 9px;
+  text-align: center; 
+  font-weight: 500;
+}
+
+/* Success (Dark) */
+.badge-success-dark {
+  background-color: rgba(52, 211, 153, 0.1); /* dark:bg-emerald-400/10 */
+  color: rgba(52, 211, 153); /* dark:text-emerald-400 */
+  border: 1px solid rgba(52, 211, 153, 0.2); /* dark:ring-emerald-400/20 */
+}
+
+/* Error (Light) */
+.badge-error {
+  background-color: #fee2e2; /* bg-red-50 */
+  color: #b91c1c; /* text-red-900 */
+  border: 1px solid rgba(239, 68, 68, 0.2); /* ring-red-600/20 */
+  border-radius: 100px;
+  padding: 2px 9px;
+  text-align: center; 
+  font-weight: 500;
+}
+
+/* Error (Dark) */
+.badge-error-dark {
+  background-color: rgba(248, 113, 113, 0.1); /* dark:bg-red-400/10 */
+  color: rgba(248, 113, 113); /* dark:text-red-400 */
+  border: 1px solid rgba(248, 113, 113, 0.2); /* dark:ring-red-400/20 */
+}
+
+/* Warning (Light) */
+.badge-warning {
+  background-color: #fef3c7; /* bg-yellow-50 */
+  color: #92400e; /* text-yellow-900 */
+  border: 1px solid rgba(202, 138, 4, 0.3); /* ring-yellow-600/30 */
+}
+
+/* Warning (Dark) */
+.badge-warning-dark {
+  background-color: rgba(252, 211, 77, 0.1); /* dark:bg-yellow-400/10 */
+  color: rgba(234, 179, 8); /* dark:text-yellow-500 */
+  border: 1px solid rgba(252, 211, 77, 0.2); /* dark:ring-yellow-400/20 */
+}
