@@ -27,7 +27,7 @@ const Navegacion= () => {
     
   }, []);
   return (
-    <nav className={stickyHeader ? 'sticky' : ''}>
+    <nav className={`nav ${stickyHeader ? 'sticky' : ''}`}>
       <a href="#" className="logo"><img src={icon} alt="icon" /></a>
       <ul className={`navMenu ${activo ? 'open' : ''}`}>
         <li><a href="/inicio">Inicio</a></li>

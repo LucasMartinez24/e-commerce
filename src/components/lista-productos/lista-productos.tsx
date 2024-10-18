@@ -7,10 +7,10 @@ const ListaProductos = () => {
   const { deleteProduct }=useProductActions()
   return (
       <div className="table">
-        <button className="agregar"><a href="/admin/form">Agregar Producto</a></button>
+        <button className="buttons agregar"><a href="/admin/form">Agregar Producto</a></button>
         <Badge text={productos.length.toString()+" productos cargados"} variant="default" />
         <div className="table-section">
-          <table>
+          <table className='table-products'>
             <thead>
               <tr>
                 <th>Producto</th>
@@ -27,9 +27,9 @@ const ListaProductos = () => {
                     <td>{item.nombre}</td>
                     <td>{item.precio.toLocaleString('es-ES', { style: 'currency', currency: 'EUR' })}</td>
                     <td>
-                      <button><i className="fa-solid fa-pen-to-square"></i></button>
+                      <button className='buttons'><i className="fa-solid fa-pen-to-square"></i></button>
                       {/* <Link to={`/formulario/${item.id}`}><i className="fa-solid fa-pen-to-square"></i></Link> */}
-                      <button onClick={()=>deleteProduct(item.id)}><i className="fa-solid fa-trash"></i></button>
+                      <button className='buttons' onClick={()=>deleteProduct(item.id)}><i className="fa-solid fa-trash"></i></button>
                     </td>
                   </tr>
                 ))

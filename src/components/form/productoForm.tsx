@@ -54,14 +54,14 @@ const ProductoForm: React.FC = () => {
     form.reset(); 
   }
   return (
-    <section>
-      <div className="container">
+    <section className='section'>
+      <div className="producto-container">
         <h2>Productos</h2>
         <span className="result">
               {result === 'ok' && <Badge text={"Guardado con exito"} variant='success'></Badge>}
               {result === 'error' && <Badge text={"Error al guardar"} variant='error'></Badge>}
             </span>
-        <form className="form" onSubmit={handleSubmit}>
+        <form className="formProducto" onSubmit={handleSubmit}>
           <input type="hidden" name="id" />
           <div className="input-box">
             <label htmlFor="nombre">Nombre:</label>

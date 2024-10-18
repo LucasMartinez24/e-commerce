@@ -6,7 +6,7 @@
 .table-section{
   overflow: auto;
 }
-table{
+.table-products{
   width: 100%;
   table-layout: fixed;
   border-collapse:collapse ;
@@ -32,7 +32,7 @@ tr:hover td{
   color: #b074d1;
   background-color: #f6f9fc;
 }
-button {
+.buttons {
   outline: none;
   border: none;
   border-radius: 6px;
